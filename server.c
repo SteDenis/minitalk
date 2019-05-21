@@ -6,7 +6,7 @@
 /*   By: abarthel <abarthel@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/02/03 20:44:19 by abarthel          #+#    #+#             */
-/*   Updated: 2019/02/03 21:47:00 by stdenis          ###   ########.fr       */
+/*   Updated: 2019/05/21 13:42:49 by abarthel         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -67,7 +67,7 @@ void	interpreter(int signo)
 	{
 		buf[i] = 0;
 		write(STDOUT_FILENO, buf, i + 1);
-		ft_memset(buf, '\0', 99)
+		ft_memset(buf, '\0', 99);
 		i = 0;
 		bit = 0;
 	}
